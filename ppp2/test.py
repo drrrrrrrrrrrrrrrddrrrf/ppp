@@ -1,8 +1,4 @@
-a =[]
-n=int(input("Num: "))
-a.append(n)
+n=1
 while n!=0:
-    n=int(input("Num2: "))
-    a.append(n)
-    z=sum(a)
-print (z)
+	print(n)
+	n+=1
