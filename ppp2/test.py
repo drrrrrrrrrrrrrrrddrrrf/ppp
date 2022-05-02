@@ -1,4 +1,4 @@
 n=1
-while n!=0:
+while 0==0:
 	print(n)
 	n+=1
