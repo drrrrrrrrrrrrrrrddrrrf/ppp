@@ -1,5 +1,5 @@
 a = input("Frase: ")
-b = ["a","e","i","o","u"]
 for i in range(len(a)):
-    if i in b:
-        print (a[i.upper()])
+    z = a[i]
+    if 'aeiou' in str(z):
+        print(z.upper())

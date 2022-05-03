@@ -1,3 +1,4 @@
 a = input("Frase: ")
 for i in range(len(a)):
-    print (a[i])
+    z=a[i]
+    print (z.upper())
