@@ -1,4 +1,9 @@
 a = input("Frase: ")
-for b in ["a","e","i","o","u"]:
-    if b in a:
-        print(b)
+z = []
+b = ["a","e","i","o","u"]
+c = len(a)
+for i in range (c):
+    if a[i] in b:
+        z.append(a[i])   
+r=z
+print(z)
