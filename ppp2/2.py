@@ -1,3 +1,3 @@
 num = input("Desitja sortir (S/N)?: ")
-while num not in {"S","s"}:
+while num.lower() not in {"s"}:
     num = input("Desitja sortir (S/N)?: ")
