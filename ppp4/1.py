@@ -1,7 +1,6 @@
 u = input("Frase: ")
-z = []
-for i in range(len(u)):
-    z.append(u[i])
+r = []
 for h in range(len(u)):
     l = len(u)-h
-    print(u[l-1])
+    r.append(u[l-1])
+print (r)
