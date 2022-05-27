@@ -1,7 +1,10 @@
 n=int(input("Num: "))
+r=[]
+x=[]
 for i in range(n):
     z=int(input("Num: "))
     if z%2 == 0:
-        print(z,"Es parell ")
+        r.append(z)
     else:
-        print(z,"Es inparell")
+        x.append(z)
+print(r, " Son parells. ",x,"  No son parells. ")

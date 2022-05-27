@@ -1,5 +1,6 @@
 n=int(input("Num: "))
-for i in range(n):
+r=int(input("Num2: "))
+for i in range(n-1):
     z=int(input("Num2: "))
-    if z < n:
+    if z < r:
         print("El Numero ",z, " es mes petit que ",n)
