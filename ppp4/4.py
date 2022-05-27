@@ -1,8 +1,9 @@
 n = input("Frase: ")
 z = n.split()
-for i in range (len(z)):
-    m = z[0]
+m = len(z[0])
+r=z[0]
 for h in range(len(z)):
-    if(z[h]>m):
+    if(len(z[h])>m):
         m = z[h]
-print(m)
+        r=z[h]
+print(r)
